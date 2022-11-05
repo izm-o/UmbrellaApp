@@ -58,7 +58,7 @@ class AlarmReceiver : BroadcastReceiver() {
 
         //NotificationManager
         val builder = NotificationCompat.Builder(context!!,"TEST_CHANNEL_ID")
-            .setSmallIcon(R.drawable.ic_launcher_background)
+            .setSmallIcon(R.drawable.ic_stat_name)
             .setContentTitle("本日の降水確率")
             .setContentText("0～6時 : $chanceOR1、6～12時 : $chanceOR2、12～18時 : $chanceOR3、18～24時 : $chanceOR4")
             .setStyle(NotificationCompat.BigTextStyle()
