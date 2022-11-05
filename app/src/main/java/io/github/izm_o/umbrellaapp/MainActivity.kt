@@ -478,7 +478,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         )
 
         //トーストを表示
-        Toast.makeText(this, "通知時刻の設定完了", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "設定完了", Toast.LENGTH_SHORT).show()
     }
 
     //設定したアラームを解除
