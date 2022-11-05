@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array1">
+        <item>北海道</item>
+        <item>青森県</item>
+        <item>岩手県</item>
+        <item>宮城県</item>
+        <item>秋田県</item>
+        <item>山形県</item>
+        <item>福島県</item>
+        <item>茨城県</item>
+        <item>栃木県</item>
+        <item>群馬県</item>
+        <item>埼玉県</item>
+        <item>千葉県</item>
+        <item>東京都</item>
+        <item>神奈川県</item>
+        <item>新潟県</item>
+        <item>富山県</item>
+        <item>石川県</item>
+        <item>福井県</item>
+        <item>山梨県</item>
+        <item>長野県</item>
+        <item>岐阜県</item>
+        <item>静岡県</item>
+        <item>愛知県</item>
+        <item>三重県</item>
+        <item>滋賀県</item>
+        <item>京都府</item>
+        <item>大阪府</item>
+        <item>兵庫県</item>
+        <item>奈良県</item>
+        <item>和歌山県</item>
+        <item>鳥取県</item>
+        <item>島根県</item>
+        <item>岡山県</item>
+        <item>広島県</item>
+        <item>山口県</item>
+        <item>徳島県</item>
+        <item>香川県</item>
+        <item>愛媛県</item>
+        <item>高知県</item>
+        <item>福岡県</item>
+        <item>佐賀県</item>
+        <item>長崎県</item>
+        <item>熊本県</item>
+        <item>大分県</item>
+        <item>宮崎県</item>
+        <item>鹿児島県</item>
+        <item>沖縄県</item>
+    </string-array>
+    <string-array name="hokkaido_array">
+        <item>稚内</item>
+        <item>旭川</item>
+        <item>留萌</item>
+        <item>網走</item>
+        <item>北見</item>
+        <item>紋別</item>
+        <item>根室</item>
+        <item>釧路</item>
+        <item>帯広</item>
+        <item>室蘭</item>
+        <item>浦河</item>
+        <item>札幌</item>
+        <item>岩見沢</item>
+        <item>倶知安</item>
+        <item>函館</item>
+        <item>江差</item>
+    </string-array>
+    <string-array name="aomori_array">
+        <item>青森</item>
+        <item>むつ</item>
+        <item>八戸</item>
+    </string-array>
+    <string-array name="iwate_array">
+        <item>盛岡</item>
+        <item>宮古</item>
+        <item>大船渡</item>
+    </string-array>
+    <string-array name="miyagi_array">
+        <item>仙台</item>
+        <item>白石</item>
+    </string-array>
+    <string-array name="akita_array">
+        <item>秋田</item>
+        <item>横手</item>
+    </string-array>
+    <string-array name="yamagata_array">
+        <item>山形</item>
+        <item>米沢</item>
+        <item>酒田</item>
+        <item>新庄</item>
+    </string-array>
+    <string-array name="fukushima_array">
+        <item>福島</item>
+        <item>小名浜</item>
+        <item>若松</item>
+    </string-array>
+    <string-array name="ibaraki_array">
+        <item>水戸</item>
+        <item>土浦</item>
+    </string-array>
+    <string-array name="tochigi_array">
+        <item>宇都宮</item>
+        <item>大田原</item>
+    </string-array>
+    <string-array name="gunma_array">
+        <item>前橋</item>
+        <item>みなかみ</item>
+    </string-array>
+    <string-array name="saitama_array">
+        <item>さいたま</item>
+        <item>熊谷</item>
+        <item>秩父</item>
+    </string-array>
+    <string-array name="chiba_array">
+        <item>千葉</item>
+        <item>銚子</item>
+        <item>館山</item>
+    </string-array>
+    <string-array name="tokyo_array">
+        <item>東京</item>
+        <item>大島</item>
+        <item>八丈島</item>
+        <item>父島</item>
+    </string-array>
+    <string-array name="kanagawa_array">
+        <item>横浜</item>
+        <item>小田原</item>
+    </string-array>
+    <string-array name="niigata_array">
+        <item>新潟</item>
+        <item>長岡</item>
+        <item>高田</item>
+        <item>相川</item>
+    </string-array>
+    <string-array name="toyama_array">
+        <item>富山</item>
+        <item>伏木</item>
+    </string-array>
+    <string-array name="ishikawa_array">
+        <item>金沢</item>
+        <item>輪島</item>
+    </string-array>
+    <string-array name="fukui_array">
+        <item>福井</item>
+        <item>敦賀</item>
+    </string-array>
+    <string-array name="yamanashi_array">
+        <item>甲府</item>
+        <item>河口湖</item>
+    </string-array>
+    <string-array name="nagano_array">
+        <item>長野</item>
+        <item>松本</item>
+        <item>飯田</item>
+    </string-array>
+    <string-array name="gifu_array">
+        <item>岐阜</item>
+        <item>高山</item>
+    </string-array>
+    <string-array name="shizuoka_array">
+        <item>静岡</item>
+        <item>網代</item>
+        <item>三島</item>
+        <item>浜松</item>
+    </string-array>
+    <string-array name="aichi_array">
+        <item>名古屋</item>
+        <item>豊橋</item>
+    </string-array>
+    <string-array name="mie_array">
+        <item>津</item>
+        <item>尾鷲</item>
+    </string-array>
+    <string-array name="shiga_array">
+        <item>大津</item>
+        <item>彦根</item>
+    </string-array>
+    <string-array name="kyoto_array">
+        <item>京都</item>
+        <item>舞鶴</item>
+    </string-array>
+    <string-array name="osaka_array">
+        <item>大阪</item>
+    </string-array>
+    <string-array name="hyogo_array">
+        <item>神戸</item>
+        <item>豊岡</item>
+    </string-array>
+    <string-array name="nara_array">
+        <item>奈良</item>
+        <item>風屋</item>
+    </string-array>
+    <string-array name="wakayama_array">
+        <item>和歌山</item>
+        <item>潮岬</item>
+    </string-array>
+    <string-array name="tottori_array">
+        <item>鳥取</item>
+        <item>米子</item>
+    </string-array>
+    <string-array name="shimane_array">
+        <item>松江</item>
+        <item>浜田</item>
+        <item>西郷</item>
+    </string-array>
+    <string-array name="okayama_array">
+        <item>岡山</item>
+        <item>津山</item>
+    </string-array>
+    <string-array name="hiroshima_array">
+        <item>広島</item>
+        <item>庄原</item>
+    </string-array>
+    <string-array name="yamaguchi_array">
+        <item>下関</item>
+        <item>山口</item>
+        <item>柳井</item>
+        <item>萩</item>
+    </string-array>
+    <string-array name="tokushima_array">
+        <item>徳島</item>
+        <item>日和佐</item>
+    </string-array>
+    <string-array name="kagawa_array">
+        <item>高松</item>
+    </string-array>
+    <string-array name="ehime_array">
+        <item>松山</item>
+        <item>新居浜</item>
+        <item>宇和島</item>
+    </string-array>
+    <string-array name="kochi_array">
+        <item>高知</item>
+        <item>室戸岬</item>
+        <item>清水</item>
+    </string-array>
+    <string-array name="fukuoka_array">
+        <item>福岡</item>
+        <item>八幡</item>
+        <item>飯塚</item>
+        <item>久留米</item>
+    </string-array>
+    <string-array name="saga_array">
+        <item>佐賀</item>
+        <item>伊万里</item>
+    </string-array>
+    <string-array name="nagasaki_array">
+        <item>長崎</item>
+        <item>佐世保</item>
+        <item>厳原</item>
+        <item>福江</item>
+    </string-array>
+    <string-array name="kumamoto_array">
+        <item>熊本</item>
+        <item>阿蘇乙姫</item>
+        <item>牛深</item>
+        <item>人吉</item>
+    </string-array>
+    <string-array name="oita_array">
+        <item>大分</item>
+        <item>中津</item>
+        <item>日田</item>
+        <item>佐伯</item>
+    </string-array>
+    <string-array name="miyazaki_array">
+        <item>宮崎</item>
+        <item>延岡</item>
+        <item>都城</item>
+        <item>高千穂</item>
+    </string-array>
+    <string-array name="kagoshima_array">
+        <item>鹿児島</item>
+        <item>鹿屋</item>
+        <item>種子島</item>
+        <item>名瀬</item>
+    </string-array>
+    <string-array name="okinawa_array">
+        <item>那覇</item>
+        <item>名護</item>
+        <item>久米島</item>
+        <item>南大東</item>
+        <item>宮古島</item>
+        <item>石垣島</item>
+        <item>与那国島</item>
+    </string-array>
+</resources>

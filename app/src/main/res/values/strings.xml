@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">UmbrellaApp</string>
+    <!-- activity_main.xml -->
+    <string name="main_title">降水確率を毎日通知</string>
+    <string name="area1">都道府県</string>
+    <string name="area2">地域</string>
+    <string name="setting_area">設定地域 :</string>
+    <string name="setting_time">AM — : —</string>
+    <string name="select_time">時刻選択</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <!-- activity_destination.xml -->
+    <string name="destination_title">本日の降水確率</string>
+    <string name="time1">0～6時 :</string>
+    <string name="rain1">--%</string>
+    <string name="time2">6～12時 :</string>
+    <string name="rain2">--%</string>
+    <string name="time3">12～18時 :</string>
+    <string name="rain3">--%</string>
+    <string name="time4">18～24時 :</string>
+    <string name="rain4">--%</string>
+</resources>
