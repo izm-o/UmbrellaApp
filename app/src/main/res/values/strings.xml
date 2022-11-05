@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UmbrellaApp</string>
+    <string name="app_name">傘いる？いらない？</string>
     <!-- activity_main.xml -->
     <string name="main_title">降水確率を毎日通知</string>
     <string name="area1">都道府県</string>
