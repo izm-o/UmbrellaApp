@@ -9,6 +9,7 @@ import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.view.View
 import android.widget.*
 import io.github.izm_o.umbrellaapp.databinding.ActivityMainBinding
@@ -48,6 +49,9 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         )
         binding.spinner1.adapter = adapter1
         binding.spinner1.onItemSelectedListener = this
+
+        //プライバシーポリシーのリンク
+        binding.privacyPolicy.movementMethod = LinkMovementMethod.getInstance()
 
         //アプリ終了時に保存したデータの呼び出し
         val sharedPref = getSharedPreferences(
