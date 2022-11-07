@@ -9,7 +9,7 @@
     <string name="select_time">時刻選択</string>
     <string name="set">Set</string>
     <string name="cancel">Cancel</string>
-    <string name="privacy_policy"><a href="https://lab316.github.io/app-static-page/ja/privacy.html?company=izm-o&amp;email=izm.o.and.app@gmail.com&amp;department=&amp;address=">プライバシーポリシー</a></string>
+    <string name="privacy_policy"><a href="https://izm-o.github.io/privacy_policy/">プライバシーポリシー</a></string>
     <!-- activity_destination.xml -->
     <string name="destination_title">本日の降水確率</string>
     <string name="time1">0～6時 :</string>
