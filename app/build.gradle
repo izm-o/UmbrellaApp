@@ -36,6 +36,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    bundle {
+        storeArchive {
+            enable = false
+        }
+    }
 }
 
 dependencies {
