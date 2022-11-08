@@ -56,16 +56,12 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         //アプリ終了時に保存したデータの呼び出し
         val sharedPref = getSharedPreferences(
             "DataStore", Context.MODE_PRIVATE)
-//        val int1 = sharedPref.getInt("InputSpinner1", 0)
-//        val int2 = sharedPref.getInt("InputSpinner2", 0)
         val str = sharedPref.getString("InputTime","通知時刻を設定")
         val str2 = sharedPref.getString("InputArea","東京")
         val bl = sharedPref.getBoolean("Input", false)
 
         //初期のボタンの状態
         if (bl){
-//            binding.spinner1.setSelection(int1)
-//            binding.spinner2.setSelection(int2)
             binding.spinner1.isEnabled = false
             binding.spinner2.isEnabled = false
             binding.selectedTime.text = "$str"
@@ -87,7 +83,6 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
         //SetAlarmボタンが押されたら
         binding.setAlarmBtn.setOnClickListener {
-
             //AlarmManager
             setAlarm()
             //ボタンの状態
@@ -102,8 +97,6 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         binding.cancelAlarmBtn.setOnClickListener {
             cancelAlarm()
             //初期のボタンの状態に戻す
-//            binding.spinner1.setSelection(0)
-//            binding.spinner2.setSelection(0)
             binding.spinner1.isEnabled = true
             binding.spinner2.isEnabled = true
             binding.selectTimeBtn.isEnabled = true
@@ -120,8 +113,6 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         val sharedPref = getSharedPreferences(
             "DataStore", Context.MODE_PRIVATE)
         val editor = sharedPref.edit()
-//        editor.putInt("InputSpinner1", binding.spinner1.selectedItemPosition)
-//        editor.putInt("InputSpinner2", binding.spinner2.selectedItemPosition)
         editor.putString("InputArea",binding.selectArea.text.toString())
         editor.putString("InputTime", binding.selectedTime.text as String?)
         editor.putBoolean("Input", binding.cancelAlarmBtn.isEnabled)
@@ -470,11 +461,6 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         val intent = Intent(this, AlarmReceiver::class.java)
         // Broadcast にメッセージを送るための設定
         pendingIntent = PendingIntent.getBroadcast(this, 0, intent, PendingIntent.FLAG_IMMUTABLE)
-        //繰り返しの設定(ただし、setRepeatingではDozeモードで発動しない)
-//        alarmManager.setRepeating(
-//            AlarmManager.RTC_WAKEUP, calendar.timeInMillis,
-//            AlarmManager.INTERVAL_DAY, pendingIntent//1日間隔でアラーム
-//        )
         //DozeモードでもAlarm発動する(ただし1回のみ)
         alarmManager.setExactAndAllowWhileIdle(
             AlarmManager.RTC_WAKEUP, calendar.timeInMillis,
