@@ -5,12 +5,13 @@
 https://play.google.com/store/apps/details?id=io.github.izm_o.umbrellaapp
 
 ## 概要
-- 2022/11/8 リリース
+- 2022/11/12 リリース
 
 ## 技術環境
 - 開発言語：Kotlin
 - 開発環境：Android Studio
-- バージョン管理：GitHub
+- 使用技術：Kotlin Coroutine , ViewBinding , ConstraintLayout
+- バージョン管理：Git , GitHub
 - デザインツール：Adobe Illustrator , Adobe Photoshop
 
 ## このアプリを作った経緯や苦労した点
