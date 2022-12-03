@@ -5,7 +5,7 @@
 https://play.google.com/store/apps/details?id=io.github.izm_o.umbrellaapp
 
 ## 概要
-- 2022/11/12 リリース
+- 2022/11/8 リリース
 
 ## 技術環境
 - 開発言語：Kotlin
