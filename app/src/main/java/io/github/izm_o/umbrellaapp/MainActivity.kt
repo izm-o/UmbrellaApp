@@ -462,10 +462,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         // Broadcast にメッセージを送るための設定
         pendingIntent = PendingIntent.getBroadcast(this, 0, intent, PendingIntent.FLAG_IMMUTABLE)
         //DozeモードでもAlarm発動する(ただし1回のみ)
-        alarmManager.setExactAndAllowWhileIdle(
-            AlarmManager.RTC_WAKEUP, calendar.timeInMillis,
-            pendingIntent
-        )
+        alarmManager.setAlarmClock(AlarmManager.AlarmClockInfo(calendar.timeInMillis, null),pendingIntent)
 
         //トーストを表示
         Toast.makeText(this, "設定完了", Toast.LENGTH_SHORT).show()

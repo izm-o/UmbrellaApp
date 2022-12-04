@@ -26,6 +26,8 @@ class AlarmReceiver : BroadcastReceiver() {
     private var chance4: String? = null
 
     override fun onReceive(context: Context?, intent: Intent?) {
+        //アラームの繰り返し
+        setNextAlarmService(context)
 
         //spinner2で選んだ値に対応するコードを受け取る
         val sharedPref = context?.getSharedPreferences("DataStore2", Context.MODE_PRIVATE)
@@ -69,9 +71,6 @@ class AlarmReceiver : BroadcastReceiver() {
 
         val notificationManager = NotificationManagerCompat.from(context)
         notificationManager.notify(123,builder.build())
-
-        //アラームの繰り返し
-        setNextAlarmService(context)
     }
 
     //アラームの繰り返し
@@ -82,8 +81,7 @@ class AlarmReceiver : BroadcastReceiver() {
         val startMillis = System.currentTimeMillis() + repeatPeriod
         val pendingIntent = PendingIntent.getBroadcast(context, 0, intent,PendingIntent.FLAG_IMMUTABLE)
         val alarmManager = context!!.getSystemService(Service.ALARM_SERVICE) as AlarmManager
-        alarmManager.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP,
-            startMillis, pendingIntent)
+        alarmManager.setAlarmClock(AlarmManager.AlarmClockInfo(startMillis,null),pendingIntent)
     }
 
     //天気情報取得
